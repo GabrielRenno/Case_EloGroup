@@ -4,3 +4,9 @@ Data:06/04/2022
 
 
 -Definição do problema:
+    O problema norteador deste projeto é a necessidade de definição de 3 novas regiões para a expansão de ujma rede de laboratórios dos Estados Unidos.
+
+-Fontes de dados:
+    Existem 5 diferentes fontes de dados fornecidas pelo cliente para realização do estudo, são elas
+        - Demographic Data: contém o total da população, distribuição por sexo e quantidade de pessoas por faixa etária. 
+        - Df Geocode:
