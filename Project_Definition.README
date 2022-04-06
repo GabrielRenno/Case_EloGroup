@@ -9,4 +9,29 @@ Data:06/04/2022
 -Fontes de dados:
     Existem 5 diferentes fontes de dados fornecidas pelo cliente para realização do estudo, são elas
         - Demographic Data: contém o total da população, distribuição por sexo e quantidade de pessoas por faixa etária. 
-        - Df Geocode:
+        - Df Geocode: contém as informações da localização dos laboratórios
+        - Df Economic data: contém as informações que representam o poder aquisitivo da população de cada área
+        - Test Data: contém as informações de custo operacional dos procedimentos oferecidos pela empresa
+        - Transactional Data: contém as informações dos procedimentos realizados em todos os laboratórios da empresa
+
+- Abordagem:
+    Visando o objetivo de indicar ao cliente tres localizações para realizar a expansão da empresa o autor do projeto irá buscar realizar as indicaões a partir da métrica da lucratividade. Portanto, o objetivo será encontrar a partir dos dados históricos fornecidos
+    quais são as localizaões atuais que trazem maior lucratividade para a empresa, e também como essa lucratividade se comporta em relação as variaveis sexo e faixa etária
+    A partir disso será feito um estudo de quais localizações do banco de dados que não possuem uma clínica, são mais parecidas com aquelas que atualmente trazem maior retorno financeiro.
+
+-Planejamento:
+
+    Parte1:
+    -Sanity check transactional data;
+    -Sanity check Test data;
+    -Mergir as duas tabelas a partir da coluna CodItem;
+    -Calcular a lucratividade  por procedimento realizado. Utilizando a coluna 'TestingCost';
+    -Categorizar a coluna 'Date of Birth' por faixa etária;
+    -Ranking de laboratórios por lucratividade;
+    -Ranking de sexo por lucratividade;
+    -Ranking de faixa etaria por lucratividade;
+    -Ranking de item por lucratividade;
+
+    Parte 2:
+    -
+
