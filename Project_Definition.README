@@ -4,7 +4,7 @@ Data:06/04/2022
 
 
 -Definição do problema:
-    O problema norteador deste projeto é a necessidade de definição de 3 novas regiões para a expansão de ujma rede de laboratórios dos Estados Unidos.
+    O problema norteador deste projeto é a necessidade de definição de 3 novas regiões para a expansão de uma rede de laboratórios dos Estados Unidos.
 
 -Fontes de dados:
     Existem 5 diferentes fontes de dados fornecidas pelo cliente para realização do estudo, são elas
@@ -15,7 +15,8 @@ Data:06/04/2022
         - Transactional Data: contém as informações dos procedimentos realizados em todos os laboratórios da empresa
 
 - Abordagem:
-    Visando o objetivo de indicar ao cliente tres localizações para realizar a expansão da empresa o autor do projeto irá buscar realizar as indicaões a partir da métrica da lucratividade. Portanto, o objetivo será encontrar a partir dos dados históricos fornecidos
+    Visando o objetivo de indicar ao cliente tres localizações para realizar a expansão da empresa o autor do projeto irá buscar realizar as indicaões a partir da métrica da lucratividade.
+    Portanto, o objetivo será encontrar a partir dos dados históricos fornecidos
     quais são as localizaões atuais que trazem maior lucratividade para a empresa, e também como essa lucratividade se comporta em relação as variaveis sexo e faixa etária
     A partir disso será feito um estudo de quais localizações do banco de dados que não possuem uma clínica, são mais parecidas com aquelas que atualmente trazem maior retorno financeiro.
 
@@ -27,11 +28,24 @@ Data:06/04/2022
     -Mergir as duas tabelas a partir da coluna CodItem;
     -Calcular a lucratividade  por procedimento realizado. Utilizando a coluna 'TestingCost';
     -Categorizar a coluna 'Date of Birth' por faixa etária;
+    -Correlacao fauramento e prco do procedimento
     -Ranking de laboratórios por lucratividade;
     -Ranking de sexo por lucratividade;
     -Ranking de faixa etaria por lucratividade;
-    -Ranking de item por lucratividade;
+  
 
     Parte 2:
-    -
+    - Mergir os tres dataset em um so usando os Ids
+    - Filtrar este dataset selecionando apenas colunas importantes
+    -Sanity check da tabela completa
+    - Categorizar as variaveis que indicam faixa etaria e capacidade financeira
+    -Filtrar o dataset de ZCTAs utilizando os insights usados na parte 1
+    -Filtra o dataset pela coluna sex ratio pois onde ha mais mulheres a lucratividade e maior
+    -Filtra o dataset pela quantidade de pessoas de classe alta no ZCTA pois o altos precos estao positivamente correlacionados com alto faturamento
+    -Filtra o dataset pela coluna qtd de criancas pois onde ha mais criancas sendo atendidas o faturamento é maior
+
+
+    Resultados:
+    
+
 
