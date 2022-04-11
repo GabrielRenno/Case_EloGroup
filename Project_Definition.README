@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Autor:Gabriel de Souza Rennó
 Data:06/04/2022
 
@@ -18,7 +19,7 @@ Data:06/04/2022
     Visando o objetivo de indicar ao cliente tres localizações para realizar a expansão da empresa o autor do projeto irá buscar realizar as indicaões a partir da métrica da lucratividade.
     Portanto, o objetivo será encontrar a partir dos dados históricos fornecidos
     quais são as localizaões atuais que trazem maior lucratividade para a empresa, e também como essa lucratividade se comporta em relação as variaveis sexo e faixa etária
-    A partir disso será feito um estudo de quais localizações do banco de dados que não possuem uma clínica, são mais parecidas com aquelas que atualmente trazem maior retorno financeiro.
+    A partir disso será feito um estudo de quais localizações do banco de dados que  possuem uma clínica, são as mais indicadas para receber novas clínicas
 
 -Planejamento:
 
@@ -43,9 +44,5 @@ Data:06/04/2022
     -Filtra o dataset pela coluna sex ratio pois onde ha mais mulheres a lucratividade e maior
     -Filtra o dataset pela quantidade de pessoas de classe alta no ZCTA pois o altos precos estao positivamente correlacionados com alto faturamento
     -Filtra o dataset pela coluna qtd de criancas pois onde ha mais criancas sendo atendidas o faturamento é maior
-
-
-    Resultados:
-    
 
 
