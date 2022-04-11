@@ -44,5 +44,6 @@ Data:06/04/2022
     -Filtra o dataset pela coluna sex ratio pois onde ha mais mulheres a lucratividade e maior
     -Filtra o dataset pela quantidade de pessoas de classe alta no ZCTA pois o altos precos estao positivamente correlacionados com alto faturamento
     -Filtra o dataset pela coluna qtd de criancas pois onde ha mais criancas sendo atendidas o faturamento é maior
+    -Indica 03 ZCTAs para receber novas clínicas
 
 
