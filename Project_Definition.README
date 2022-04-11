@@ -24,26 +24,28 @@ Data:06/04/2022
 -Planejamento:
 
     Parte1:
-    -Sanity check transactional data;
-    -Sanity check Test data;
-    -Mergir as duas tabelas a partir da coluna CodItem;
+    -EDA transactional_data.csv;
+    -EDA test_data.csv;
+    -Consolidar as duas tabelas a partir da coluna ‘CodItem’;
     -Calcular a lucratividade  por procedimento realizado. Utilizando a coluna 'TestingCost';
     -Categorizar a coluna 'Date of Birth' por faixa etária;
-    -Correlacao fauramento e prco do procedimento
-    -Ranking de laboratórios por lucratividade;
-    -Ranking de sexo por lucratividade;
-    -Ranking de faixa etaria por lucratividade;
+    -Correlacão faturamento e preço dos procedimentos;
+    -Groupby de faturamento por laboratório;
+    -Groupby de faturamento por gênero;
+    -Groupby de faturamento por faixa etária;
+
   
 
     Parte 2:
-    - Mergir os tres dataset em um so usando os Ids
-    - Filtrar este dataset selecionando apenas colunas importantes
-    -Sanity check da tabela completa
-    - Categorizar as variaveis que indicam faixa etaria e capacidade financeira
-    -Filtrar o dataset de ZCTAs utilizando os insights usados na parte 1
-    -Filtra o dataset pela coluna sex ratio pois onde ha mais mulheres a lucratividade e maior
-    -Filtra o dataset pela quantidade de pessoas de classe alta no ZCTA pois o altos precos estao positivamente correlacionados com alto faturamento
-    -Filtra o dataset pela coluna qtd de criancas pois onde ha mais criancas sendo atendidas o faturamento é maior
-    -Indica 03 ZCTAs para receber novas clínicas
+     - Consolidar as três tabelas a partir de suas chaves primárias’;  
+    - Filtrar este dataframe selecionando apenas colunas posteriormente utilizadas;
+    - EDAda tabela completa;
+    - Categorizar as variáveis que indicam faixa etária e capacidade financeira;
+    - Filtrar o dataframe de ZCTAs utilizando os insights obtidos na parte 1;
+    - Filtrar o dataframe pela coluna ‘sex ratio’ pois há maior lucratividade em procedimentos realizados em clientes mulheres;
+    - Filtra o dataframe pela quantidade de pessoas de classe alta no ZCTA pois o altos preços estão positivamente correlacionados com alto faturamento;
+    - Filtra o dataframe pela coluna ‘qtd de crianças’ pois o faturamento é maior em procedimentos realizados em crianças;
+    - Indicação de três ZCTAs que possuem laboratórios lucrativos, e podem ser alvo de uma expansão da rede de laboratórios.
+
 
 
